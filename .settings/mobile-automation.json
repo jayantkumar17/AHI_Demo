@@ -1,0 +1,52 @@
+{
+  "GenerateCrossPlatformAttributes": false,
+  "GenerateSelectorsForInnerElements": true,
+  "Connections": [
+    {
+      "Name": "Redmi 9A",
+      "Description": null,
+      "Url": "http://localhost:10001/wd/hub",
+      "PlatformName": "Android",
+      "PlatformVersion": "10",
+      "DeviceName": "KZX8YDRG854XRCXW",
+      "SingleInstance": null,
+      "WaitForPageUpdate": true,
+      "Capabilities": {
+        "newCommandTimeout": "0"
+      },
+      "GeoLocation": null,
+      "LoggingModel": {
+        "LoggingEnabled": false,
+        "VideoRecordingEnabled": false,
+        "RecordingTimeLimit": 600,
+        "VideoQuality": 1,
+        "CollectScreenshot": 0,
+        "CollectPageSource": 0
+      }
+    }
+  ],
+  "Applications": [
+    {
+      "$id": "1",
+      "Name": "Pendriver",
+      "Description": null,
+      "Type": "App",
+      "Platforms": {
+        "Android": {
+          "Capabilities": {
+            "app": "C:\\Users\\Anupma Kumari\\Downloads\\Copy of ams-penrider-android-1.0.92-internal-release.apk"
+          },
+          "StartPage": null
+        },
+        "iOS": {
+          "Capabilities": {},
+          "StartPage": null
+        }
+      }
+    }
+  ],
+  "NormalizeSliderValue": false,
+  "IdsMaxAllowedLength": 40,
+  "LogsPath": "%TEMP%\\UiPath Mobile Automation Logs",
+  "Variables": {}
+}
